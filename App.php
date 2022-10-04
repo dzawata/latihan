@@ -23,7 +23,5 @@ class App
 }
 
 $app = new App();
-// $result = $app->run('bubbleSort', [1, 2, 5, 4, 3, 0, -1]);
-// print_r($result);
-$result = $app->run('shellSort', [1, 2, 5, 4, 3, 0, -1]);
+$result = $app->run('bubbleSort', [1, 2, 5, 4, 3, 0, -1]);
 print_r($result);
