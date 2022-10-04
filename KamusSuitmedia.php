@@ -1,6 +1,6 @@
 <?php
 
-class Kamus
+class KamusSuitmedia
 {
     private array $list = [];
 
@@ -47,7 +47,7 @@ class Kamus
     }
 }
 
-$kamus = new Kamus();
+$kamus = new KamusSuitmedia();
 $kamus->tambah('big', ['large', 'great']);
 $kamus->tambah('big', ['huge', 'fat']);
 $kamus->tambah('huge', ['enormous', 'gigantic']);
